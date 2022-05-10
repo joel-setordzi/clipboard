@@ -5,9 +5,10 @@
 }
 
 body {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 16px;
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size: 18px;
     text-align: center;
+    color: #9EABB2;
 }
 
 header {
@@ -21,6 +22,7 @@ header {
 }
 
 h1, h2, h3 {
+    color: #4C545C;
     margin-top: 15px;
     margin-bottom: 15px;
 }
@@ -58,12 +60,20 @@ section.intro {
 }
 
 a {
-    text-decoration: none;   
+    text-decoration: none;
+    color: #4C545C;   
+    cursor: pointer;
 }
 
 .icon {
     display: block;
     width: 139px;
+}
+
+footer {
+    background-color: #9EABB2;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 /*** LAYOUT ***/
@@ -89,7 +99,7 @@ a {
 /*** BUTTON MODULE ***/
 
 a.btn {
-    color: white;
+    color: #ffffff;
     display: block;
     margin: 20px auto;
     padding: 15px;
@@ -104,15 +114,15 @@ a.btn {
 
 a.btn:hover {
     box-shadow: 3px 5px 2px 2px gray;
-    color: black;
+    color: #000000;
 }
 
 .background-aqua {
-    background-color: aqua;
+    background-color: #26BBA4;
 }
 
 .background-blue {
-    background-color: blue;
+    background-color: #6174FF;
 }
 
 
@@ -126,6 +136,15 @@ a.btn:hover {
         background-image: url('../resources/images/bg-header-desktop.png');
         padding-top: 5%;
         padding-bottom: 5%;
+    }
+
+    footer {
+        text-align: center;
+    }
+
+    .social-icon {
+        width: 20px;
+        height: 20px;
     }
 
     /*** LAYOUT ***/
