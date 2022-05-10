@@ -61,6 +61,11 @@ a {
     text-decoration: none;   
 }
 
+.icon {
+    display: block;
+    width: 139px;
+}
+
 /*** LAYOUT ***/
 
 .container {
