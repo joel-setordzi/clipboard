@@ -68,6 +68,19 @@ a {
     margin: 0 auto;
 }
 
+.container-flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.container-storage {
+    max-width: 90%;
+    margin: 0 auto;
+}
+
 /*** BUTTON MODULE ***/
 
 a.btn {
@@ -114,6 +127,23 @@ a.btn:hover {
 
     .container {
         max-width: 60%;
+    }
+
+    .container-flex {
+        flex-direction: row;
+        align-items: center;
+        justify-items: center;
+        justify-content: space-around;  
+        gap: 10px;
+    }
+
+    .computer {
+        position: relative;
+        left: -25px;
+    }
+
+    .computer-overflow {
+        overflow: hidden;
     }
     
     /*** BUTTON MODULE ***/
